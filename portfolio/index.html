@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website  </title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/79d549fca4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+     <div id="header">
+         <div class="container">
+            <nav>
+               <img src="images/images.png" class="logo">
+               <ul>
+                  <li><a href="#header">Home</a></li>
+                  <li><a href="#about">About Me</a></li>
+                  <li><a href="#Services">My Skills </a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                  <i class="fas fa-times"  onclick="closemenu()"></i>
+
+               </ul>
+                 <i class="fas fa-bars"  onclick="openmenu()"></i>
+
+            </nav>
+            <div class ="header-text">
+                  <p>WELCOME TO MY PORTFOLIO</p>
+                  <h1>Hi, I'm <span> Shivam Sahu</span><br>
+                  <h4></h4>Aspiring Full-Stack Development And  and Data Science
+                    </H4>
+                  </h1>
+            </div> 
+
+         </div>
+
+     </div>
+  <!------ about section------>
+     <div id="about">
+        <div class="container">
+          <div class="row">
+             <div class="about-col-1">
+                <img src="images/background1..png">
+                </div>
+
+             <div class="about-col-2"></div>
+                  <h1 class="sub-title">About Me </h1>
+                  <p>My Name is Shivam Sahu I have completed my Graduation B.sc Mathematics<br> and currently Pursuing Master Of Computer Application From Madan Mohan Malaviya <br>Univesity of Technology Gorakhpur <br><br>
+                    I Am Very Enthusiastic to learn new thing and exploring the new Technology.I Have Learn <br>front end developement using HTML,CSS,JAVASCRIPT Now stated learning full-stack development  
+                    </p>
+
+                  <div class="tab-titles">
+                      <p class="tab-links active-link" onclick="opentab('skills')" > <button type="submit" class="btn btn2">Skills</button></p>
+                      <p class="tab-links active-link"onclick="opentab('Experience')"><button type="submit" class="btn btn2">Experience</button></p>
+                      <p class="tab-links active-link" onclick="opentab('Education')"><button type="submit" class="btn btn2">Education</button></p>
+                  </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                              <li><span>WEB-DEVELOPMENT</span><br><BR>HTML,CSS,JAVASCRIPT</li>
+                              <li><span>DATA SCIENCE<BR></span><br>POWER BI,EXCEL,PYTHON </li>
+                              <li><span>SOME OTHER SKILLS</span><br><BR>ENGLISH COMMUNICATION, LEADERSHIP, PUBLIC SPEAKING </li>
+                            </ul>
+                       </div>
+
+                       <div class="tab-contents" id="Experience">
+                        <ul>
+                          <li><span>SALES AND MARKETING  </span><br><BR>
+                          1 YEAR OF SALES EXPERIENCE <br>IN A TRACTOR AGENCY </li>
+                          <li><span>WEB-DEVELOPMENT</span><br><BR>
+                            WORKING AS A FRONT END DEVELOPER </li>
+                          <!-- <li><span>data science</span><br> </li> -->
+                        </ul>
+                    </div>  
+                   
+                     <div class="tab-contents" id="Education">
+                     <ul>
+                       <li><span> INTERMEDIATE (SCIENCE)<BR></span><br>PHYSICS,CHEMISTRY,MATHEMATICS </li>
+                       <li><span>BACHELOR OF SCIENCE 
+                      </span><br><BR>PHYSICS , MATHEMATICS </li>
+                       <li><span>MASTER OF COMPUTER APPLICATION</span><br><BR>
+                      PURSUING MCA FROM MADAN MOHAN <br>MALAVIYAUNIVERSITY OF TECHNOLOGY </li>
+                     </ul>
+                </div>
+
+
+
+          </div>
+       </div>
+     </div>
+
+<!------------services----------> 
+
+  <div id="Services" >
+      <div class="container">
+         <h1 class="sub-title"> My Technical skills </h1>
+          <div class="services-list">
+           <div>
+
+              <i class="fa-solid fa-code"></i>
+               <h2>FRONT END DEVELOPMENT</h2>
+               
+              <p>HTML4,HTML5,ANGURAL JS,CSS,CSS SELECTORS AND ADVANCE CSS</p>
+              <!-- <a href="#">learn more</a> -->
+
+           </div>
+           <div>
+
+            <i class="fa-sharp fa-solid fa-crop"></i>
+            <h2> BACK-END</h2>
+            
+           <p>REACT JS ,SQL ,MONGO DB</p>
+           <!-- <a href="#">learn more</a>
+            -->
+        </div>
+        <div>
+
+          <i class="fa-brands fa-app-store-ios"></i>
+          <h2>data science </h2>
+         
+         <p> POWER BI,MS EXCEL,
+          STARTED LEARNING ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING   </p>
+         <!-- <a href="#">learn more</a>
+          -->
+      </div>
+         </div> 
+   </div>
+
+<!------------portfolio-------->   
+
+<div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title"> OTHER SKILLS </h1>
+      <div class="work-list">
+
+        <div class="work">
+          <img src="images/SALES1.JPG">
+          <div class="layer">
+          <h3>SALES AND MARKETING </h3>
+            <p>TRY TO UNDERSTAND THE ACTUAL NEED OF THE MARKET AND CUSTOMERS USING MY DATA ANALYTICS SKILLS .</p>
+            <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="work">
+        <img src="images/PUBLIC.JPG">
+        <div class="layer">
+        <h3>PUBLIC SPEAKING </h3>
+          <p>I HAVE ORGANIGES MULTIPLE PUBLIC SPEAKING .</p>
+          <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+      </div>
+
+      <div class="work">
+      <img src="images/LEADER.Jpeg">
+      <div class="layer">
+      <h3> LEADERSHIP </h3>
+        <p>I HAVE MANAGED AND INSTRUCTED MANY PEOPLES DURING THE TRACTOR SALES MARKETING  .</p>
+        <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+      </div>
+           <!-- <a href="#" class="btn">see more</a> -->
+    </div>
+</div>
+
+<!--------contact--------->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+       <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-share"></i>Shivam91@gmail.com</p>
+        <p> <i class="fa-solid fa-phone"></i> 6392379993</p><br>
+        <h3>Other Media sources</h3><br>
+
+        <hr>
+        
+        <div class="social-icons">
+          <a href=""> <i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.instagram.com/sahu_shivam91?utm_source=qr&igsh=MTB1cXdjMWxqd2Ywcg=="><i class="fa-brands fa-instagram"></i></a>
+          <a href=""> <i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.linkedin.com/in/shivam-sahu-51aa3427a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" > <i class="fa-brands fa-linkedin"></i></a>
+         
+       </div>
+         <!-- <a href="images/my-cv.pdf"  download  class="btn btn2"> Download CV</a> -->
+
+    </div>
+    <!-- <div class="contact-right">
+      
+       <form name="submit-to-google-sheet">
+        
+           <input type="text" name="name" placeholder="your name" required>
+           <input type="email" name="email" placeholder="your email" required>
+           <textarea name="message" rows="6" placeholder="your message"></textarea>
+           <button type="submit" class="btn btn2">Submit</button>
+
+       </form>
+           <span id="msg">Hello </span>
+
+
+      </div> -->
+   </div>
+ </div>
+ <div class="copyright">
+  <p>Copyright@ shivam.made with <i class="fas fa-heart"></i> by easy tutorials</p>
+ </div>
+
+</div>
+</div>
+
+
+<script>
+       var tablinks=document.getElementsByClassName("tab-links");
+       var tabcontents=document.getElementsByClassName("tab-contents");
+
+       function opentab(tabname){
+                for(tablink of tablinks){
+                  tablink.classList.remove("active-link");
+               
+                }
+
+                for(tabcontent of tabcontents){
+                  tabcontent.classList.remove("active-tab");
+               
+                } 
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+
+
+       }
+      </Script>
+       
+<Script>
+  
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu(){
+           sidemeu.style.right="0";
+      }
+      function closemenu(){
+               sidemeu.style.right="-200px";
+              }
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbz2B0iq2XWUBC6tj06N2XKA8tN5OZZrA8pTmcJoa6BcKa1cxmkjN_00PzW-fVJKGxhlzA/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  const msg =document.getElementById("msg")
+
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML=""
+            },5000)
+            form.reset()
+      })
+
+      .catch(error => console.error('Error!', error.message))
+  })
+
+</script>
+
+</body>
+</html>
